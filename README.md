@@ -10,9 +10,6 @@ $$
 $$
 $$
 \int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
-$$
-Euler's formula is $e^{i\pi} + 1 = 0$.
-$$
 \begin{bmatrix}
 1 & 2 \\
 3 & 4
