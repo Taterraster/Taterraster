@@ -1,16 +1,83 @@
+
+
 $$
-\sum_{n=1}^{\infty} \frac{1}{n^2} = \frac{\pi^2}{6}
+(i \gamma^\mu \partial_\mu - m)\psi = 0
 $$
+
+
+
 $$
-\prod_{k=1}^{n} k = n!
+i \gamma^\mu \partial_\mu \psi - m \psi = 0
 $$
+
+---
+
+## Dirac Equation (Hamiltonian Form)
+
 $$
-\frac{a^2 + b^2}{\sqrt{c}} = d
+i \frac{\partial \psi}{\partial t}
+=
+\left(- i \boldsymbol{\alpha}\cdot\nabla + \beta m \right)\psi
 $$
+
+where
+
 $$
-\int_0^\infty e^{-x^2} dx = \frac{\sqrt{\pi}}{2}
-\begin{bmatrix}
-1 & 2 \\
-3 & 4
-\end{bmatrix}
+\alpha^i = \gamma^0 \gamma^i
+$$
+
+$$
+\beta = \gamma^0
+$$
+
+---
+
+## Gamma Matrices (Dirac Representation)
+
+### Gamma^0
+
+$$
+\gamma^0 =
+\begin{pmatrix}
+1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0 \\
+0 & 0 & -1 & 0 \\
+0 & 0 & 0 & -1
+\end{pmatrix}
+$$
+
+### Gamma^1
+
+$$
+\gamma^1 =
+\begin{pmatrix}
+0 & 0 & 0 & 1 \\
+0 & 0 & 1 & 0 \\
+0 & -1 & 0 & 0 \\
+-1 & 0 & 0 & 0
+\end{pmatrix}
+$$
+
+### Gamma^2
+
+$$
+\gamma^2 =
+\begin{pmatrix}
+0 & 0 & 0 & -i \\
+0 & 0 & i & 0 \\
+0 & i & 0 & 0 \\
+- i & 0 & 0 & 0
+\end{pmatrix}
+$$
+
+### Gamma^3
+
+$$
+\gamma^3 =
+\begin{pmatrix}
+0 & 0 & 1 & 0 \\
+0 & 0 & 0 & -1 \\
+-1 & 0 & 0 & 0 \\
+0 & 1 & 0 & 0
+\end{pmatrix}
 $$
